@@ -25,13 +25,17 @@ module.exports = {
           "heading-color": "#003459",
           // font
           // "font-family": `"Libre Franklin", sans- serif`,
+
           // Base background color for most components
           "component-background": "#fff",
           "layout-body-background": "#fff",
-          // "body-background": "#fff",
-          // menu
-          "menu-item-color": "#000",
+
+          // header menu
+          "menu-item-color": "#fff",
           "layout-header-background": "#642580",
+          "menu-bg": "#642580",
+          "menu-highlight-color": "#000",
+
           // footer
           "layout-footer-background": "#00171F",
         },
