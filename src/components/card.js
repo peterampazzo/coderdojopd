@@ -4,7 +4,10 @@ import { Card } from "antd"
 export default props => (
   <Card
     hoverable
-    style={{ width: 300, borderRadius: "20px" }}
+    style={{
+      width: "80%",
+      borderRadius: "20px",
+    }}
     cover={
       <img alt={props.imgAlt} src={props.imgSrc} style={{ height: "auto" }} />
     }

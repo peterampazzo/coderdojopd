@@ -12,13 +12,18 @@ import "../style.less"
 export default ({ data }) => (
   <div>
     <Layout>
-      <Header
-        text="Laboratorio di programmazione gratuito per bambini e ragazzi dai 5 anni
-        in su"
-      />
+      <Header text="Laboratorio di programmazione gratuito per bambini e ragazzi dai 5 anni a Padova" />
       <div style={{ backgroundColor: "#F2F2F2", padding: "50px" }}>
         <Row>
-          <Col span={8} align="middle">
+          <Col
+            xs={24}
+            sm={14}
+            md={12}
+            lg={8}
+            xl={8}
+            align="middle"
+            style={{ paddingTop: "10px" }}
+          >
             <Link to="/cose/">
               <Card
                 imgAlt=""
@@ -28,7 +33,15 @@ export default ({ data }) => (
               />
             </Link>
           </Col>
-          <Col span={8} align="middle">
+          <Col
+            xs={24}
+            sm={14}
+            md={12}
+            lg={8}
+            xl={8}
+            align="middle"
+            style={{ paddingTop: "10px" }}
+          >
             <Card
               imgAlt=""
               imgSrc="/img/Femo_197.jpg"
@@ -36,7 +49,15 @@ export default ({ data }) => (
               cardDesc="Il nostro dojo riesce ad accogliere circa 30 bambini ad ogni appuntamento, il numero dipende dalla quantità di volontari e dalla capacità del luogo che ci ospita."
             />
           </Col>
-          <Col span={8} align="middle">
+          <Col
+            xs={24}
+            sm={14}
+            md={12}
+            lg={8}
+            xl={8}
+            align="middle"
+            style={{ paddingTop: "10px" }}
+          >
             <Card
               imgAlt=""
               imgSrc="/img/arduino.jpg"
