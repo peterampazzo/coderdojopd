@@ -20,14 +20,20 @@ module.exports = {
       options: {
         javascriptEnabled: true,
         modifyVars: {
-          "layout-footer-background": "#000",
-          "primary-color": "#183C52",
-          "heading-color": "#777777",
-          "body-background": "#fff",
+          // default colors
+          "primary-color": "#41BAC1",
+          "heading-color": "#003459",
+          // font
+          // "font-family": `"Libre Franklin", sans- serif`,
           // Base background color for most components
           "component-background": "#fff",
-          // "layout-body-background": "#183C52",
-          // "layout-header-background": "#fff",
+          "layout-body-background": "#fff",
+          // "body-background": "#fff",
+          // menu
+          "menu-item-color": "#000",
+          "layout-header-background": "#642580",
+          // footer
+          "layout-footer-background": "#00171F",
         },
       },
     },
