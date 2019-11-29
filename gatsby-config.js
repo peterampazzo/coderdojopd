@@ -7,6 +7,13 @@
 module.exports = {
   siteMetadata: {
     title: "CoderDojo Padova",
+    desc:
+      "Laboratorio di programmazione gratuito per bambini e ragazzi dai 5 anni a Padova",
+    social: {
+      facebook: "https://www.facebook.com/CoderdojoPadova/",
+      twitter: "https://twitter.com/coderdojopd",
+      github: "https://www.github.com/coderdojopd",
+    },
   },
   plugins: [
     {
@@ -23,6 +30,7 @@ module.exports = {
           // default colors
           "primary-color": "#41BAC1",
           "heading-color": "#003459",
+
           // font
           // "font-family": `"Libre Franklin", sans- serif`,
 
@@ -34,7 +42,8 @@ module.exports = {
           "menu-item-color": "#fff",
           "layout-header-background": "#642580",
           "menu-bg": "#642580",
-          "menu-highlight-color": "#000",
+          "menu-highlight-color": "#fff",
+          "menu-item-active-bg": "#fff",
 
           // footer
           "layout-footer-background": "#00171F",
