@@ -17,7 +17,12 @@ export default props => (
     </Layout.Header>
     {/* logo */}
     <Layout.Content
-      style={{ marginTop: "20px", padding: "20px", textAlign: "center" }}
+      style={{
+        marginTop: "20px",
+        marginBottom: "20px",
+        padding: "20px",
+        textAlign: "center",
+      }}
     >
       <img
         src={"/img/logo.png"}
