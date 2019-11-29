@@ -6,7 +6,7 @@ export default props => (
     hoverable
     style={{
       width: "80%",
-      borderRadius: "20px",
+      borderRadius: "15px",
     }}
     cover={
       <img alt={props.imgAlt} src={props.imgSrc} style={{ height: "auto" }} />

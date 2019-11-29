@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import { Layout, Row, Col } from "antd"
 
 import Header from "../components/header"
@@ -7,12 +7,10 @@ import Footer from "../components/footer"
 import Newsletter from "../components/newsletter"
 import Card from "../components/card"
 
-import "../style.less"
-
 export default ({ data }) => (
   <div>
     <Layout>
-      <Header text="Laboratorio di programmazione gratuito per bambini e ragazzi dai 5 anni a Padova" />
+      <Header text={data.site.siteMetadata.desc} />
       <div style={{ backgroundColor: "#F2F2F2", padding: "50px" }}>
         <Row>
           <Col
@@ -68,7 +66,10 @@ export default ({ data }) => (
         </Row>
       </div>
       <Newsletter />
-      <Footer siteTitle={data.site.siteMetadata.title} />
+      <Footer
+        siteTitle={data.site.siteMetadata.title}
+        socialLinks={data.site.siteMetadata.social}
+      />
     </Layout>
   </div>
 )
@@ -78,6 +79,12 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        desc
+        social {
+          facebook
+          twitter
+          github
+        }
       }
     }
   }
