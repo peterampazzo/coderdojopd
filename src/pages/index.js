@@ -6,11 +6,13 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import Newsletter from "../components/newsletter"
 import Card from "../components/card"
+import About from "../components/about"
 
 export default ({ data }) => (
   <div>
     <Layout>
-      <Header text={data.site.siteMetadata.desc} />
+      <Header siteTitle={data.site.siteMetadata.title} />
+      <About />
       <div style={{ backgroundColor: "#F2F2F2", padding: "50px" }}>
         <Row gutter={20}>
           <Col
@@ -42,9 +44,9 @@ export default ({ data }) => (
           >
             <Card
               imgAlt=""
-              imgSrc="/img/Femo_172.jpg"
-              cardTitle="Partecipa"
-              cardDesc="Il nostro dojo riesce ad accogliere circa 30 bambini ad ogni appuntamento, il numero dipende dalla quantità di volontari e dalla capacità del luogo che ci ospita."
+              imgSrc="/img/DSCF4762.jpg"
+              cardTitle="Stile"
+              cardDesc="A Padova, come molti altri dojo italiani, siamo molto legati al Creative Learning del MIT e alle sue 4 P: Project, Peers, Play e Passion."
             />
           </Col>
           <Col
@@ -58,9 +60,9 @@ export default ({ data }) => (
           >
             <Card
               imgAlt=""
-              imgSrc="/img/DSCF4762.jpg"
-              cardTitle="Stile"
-              cardDesc="A Padova, come molti altri dojo italiani, siamo molto legati al Creative Learning del MIT e alle sue 4 P: Project, Peers, Play e Passion."
+              imgSrc="/img/Femo_172.jpg"
+              cardTitle="Partecipa"
+              cardDesc="Il nostro dojo riesce ad accogliere circa 30 bambini ad ogni appuntamento, il numero dipende dalla quantità di volontari e dalla capacità del luogo che ci ospita."
             />
           </Col>
         </Row>

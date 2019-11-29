@@ -1,5 +1,5 @@
 import React from "react"
-import { Layout, Menu, Typography } from "antd"
+import { Layout, Menu, Typography, Col, Row } from "antd"
 
 export default props => (
   <div className="header">
@@ -16,7 +16,8 @@ export default props => (
       </Menu>
     </Layout.Header>
     {/* logo */}
-    <Layout.Content
+    <Row
+      align="middle"
       style={{
         marginTop: "20px",
         marginBottom: "20px",
@@ -24,21 +25,24 @@ export default props => (
         textAlign: "center",
       }}
     >
-      <img
-        src={"/img/logo.png"}
-        alt="CoderDojo Padova"
-        style={{ width: "150px" }}
-      />
-      <Typography.Title
-        level={3}
-        style={{
-          margin: "0 auto",
-          width: "60%",
-          fontSize: "150%",
-        }}
-      >
-        {props.text}
-      </Typography.Title>
-    </Layout.Content>
+      <Col span={24} align="middle">
+        <img
+          src={"/img/logo.png"}
+          alt="CoderDojo Padova"
+          style={{ width: "150px" }}
+        />
+        <Typography.Title
+          level={3}
+          style={{
+            margin: "0 auto",
+            width: "60%",
+            fontSize: "200%",
+            textTransform: "uppercase",
+          }}
+        >
+          {props.siteTitle}
+        </Typography.Title>
+      </Col>
+    </Row>
   </div>
 )

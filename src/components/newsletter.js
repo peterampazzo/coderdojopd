@@ -1,8 +1,8 @@
 import React from "react"
-import { Layout, Form, Icon, Input, Button, Typography, Col, Row } from "antd"
+import { Form, Icon, Input, Button, Typography, Col, Row } from "antd"
 
 export default props => (
-  <Layout.Content
+  <div
     style={{
       backgroundColor: "#ED684A",
       padding: "20px",
@@ -37,5 +37,5 @@ export default props => (
         </Form>
       </Col>
     </Row>
-  </Layout.Content>
+  </div>
 )
