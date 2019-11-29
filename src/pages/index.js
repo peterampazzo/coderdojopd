@@ -42,7 +42,7 @@ export default ({ data }) => (
           >
             <Card
               imgAlt=""
-              imgSrc="/img/Femo_197.jpg"
+              imgSrc="/img/Femo_172.jpg"
               cardTitle="Partecipa"
               cardDesc="Il nostro dojo riesce ad accogliere circa 30 bambini ad ogni appuntamento, il numero dipende dalla quantità di volontari e dalla capacità del luogo che ci ospita."
             />
@@ -58,7 +58,7 @@ export default ({ data }) => (
           >
             <Card
               imgAlt=""
-              imgSrc="/img/arduino.jpg"
+              imgSrc="/img/DSCF4762.jpg"
               cardTitle="Stile"
               cardDesc="A Padova, come molti altri dojo italiani, siamo molto legati al Creative Learning del MIT e alle sue 4 P: Project, Peers, Play e Passion."
             />
