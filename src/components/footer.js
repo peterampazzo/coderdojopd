@@ -6,7 +6,15 @@ const { Footer } = Layout
 export default props => (
   <Footer className="footer" style={{ color: "#fff" }}>
     <Row type="flex" align="middle">
-      <Col xs={24} sm={12} md={8} lg={8} xl={8} style={{ padding: "15px" }}>
+      <Col
+        xs={24}
+        sm={12}
+        md={8}
+        lg={8}
+        xl={8}
+        align="middle"
+        style={{ padding: "15px" }}
+      >
         © {props.siteTitle} {` `} {new Date().getFullYear()}, Built with
         {` `}
         <a
@@ -64,7 +72,7 @@ export default props => (
         >
           <Icon
             type="facebook"
-            style={{ fontSize: "30px", color: "#fff" }}
+            style={{ fontSize: "40px", color: "#fff" }}
             theme="filled"
           />
         </a>
@@ -76,7 +84,7 @@ export default props => (
         >
           <Icon
             type="twitter-square"
-            style={{ fontSize: "30px", color: "#fff" }}
+            style={{ fontSize: "40px", color: "#fff" }}
             theme="filled"
           />
         </a>
@@ -88,7 +96,7 @@ export default props => (
         >
           <Icon
             type="github"
-            style={{ fontSize: "30px", color: "#fff" }}
+            style={{ fontSize: "40px", color: "#fff" }}
             theme="filled"
           />
         </a>
