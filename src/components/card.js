@@ -5,12 +5,10 @@ export default props => (
   <Card
     hoverable
     style={{
-      width: "80%",
+      width: "90%",
       borderRadius: "15px",
     }}
-    cover={
-      <img alt={props.imgAlt} src={props.imgSrc} style={{ height: "auto" }} />
-    }
+    cover={<img alt={props.imgAlt} src={props.imgSrc} />}
   >
     <Card.Meta title={props.cardTitle} description={props.cardDesc} />
   </Card>

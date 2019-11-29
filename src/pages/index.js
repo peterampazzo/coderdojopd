@@ -12,15 +12,15 @@ export default ({ data }) => (
     <Layout>
       <Header text={data.site.siteMetadata.desc} />
       <div style={{ backgroundColor: "#F2F2F2", padding: "50px" }}>
-        <Row>
+        <Row gutter={20}>
           <Col
             xs={24}
-            sm={14}
+            sm={24}
             md={12}
             lg={8}
             xl={8}
             align="middle"
-            style={{ paddingTop: "10px" }}
+            style={{ paddingTop: "15px" }}
           >
             <Link to="/cose/">
               <Card
@@ -33,12 +33,12 @@ export default ({ data }) => (
           </Col>
           <Col
             xs={24}
-            sm={14}
+            sm={24}
             md={12}
             lg={8}
             xl={8}
             align="middle"
-            style={{ paddingTop: "10px" }}
+            style={{ paddingTop: "15px" }}
           >
             <Card
               imgAlt=""
@@ -49,12 +49,12 @@ export default ({ data }) => (
           </Col>
           <Col
             xs={24}
-            sm={14}
+            sm={24}
             md={12}
             lg={8}
             xl={8}
             align="middle"
-            style={{ paddingTop: "10px" }}
+            style={{ paddingTop: "15px" }}
           >
             <Card
               imgAlt=""
