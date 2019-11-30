@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import { Layout, Row, Col } from "antd"
 
 import Header from "../components/header"
@@ -11,7 +11,7 @@ import About from "../components/about"
 export default ({ data }) => (
   <div>
     <Layout>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header />
       <About />
       <div style={{ backgroundColor: "#F2F2F2", padding: "50px" }}>
         <Row gutter={20}>
@@ -24,7 +24,7 @@ export default ({ data }) => (
             align="middle"
             style={{ paddingTop: "15px" }}
           >
-            <Link to="/cose/">
+            <Link to="/che-cose/">
               <Card
                 imgAlt=""
                 imgSrc="/img/Femo_166.jpg"
@@ -42,12 +42,14 @@ export default ({ data }) => (
             align="middle"
             style={{ paddingTop: "15px" }}
           >
-            <Card
-              imgAlt=""
-              imgSrc="/img/DSCF4762.jpg"
-              cardTitle="Stile"
-              cardDesc="A Padova, come molti altri dojo italiani, siamo molto legati al Creative Learning del MIT e alle sue 4 P: Project, Peers, Play e Passion."
-            />
+            <Link to="/stile/">
+              <Card
+                imgAlt=""
+                imgSrc="/img/DSCF4762.jpg"
+                cardTitle="Stile"
+                cardDesc="A Padova, come molti altri dojo italiani, siamo molto legati al Creative Learning del MIT e alle sue 4 P: Project, Peers, Play e Passion."
+              />
+            </Link>
           </Col>
           <Col
             xs={24}
@@ -58,36 +60,19 @@ export default ({ data }) => (
             align="middle"
             style={{ paddingTop: "15px" }}
           >
-            <Card
-              imgAlt=""
-              imgSrc="/img/Femo_172.jpg"
-              cardTitle="Partecipa"
-              cardDesc="Il nostro dojo riesce ad accogliere circa 30 bambini ad ogni appuntamento, il numero dipende dalla quantità di volontari e dalla capacità del luogo che ci ospita."
-            />
+            <Link to="/partecipa/">
+              <Card
+                imgAlt=""
+                imgSrc="/img/Femo_172.jpg"
+                cardTitle="Partecipa"
+                cardDesc="Il nostro dojo riesce ad accogliere circa 30 bambini ad ogni appuntamento, il numero dipende dalla quantità di volontari e dalla capacità del luogo che ci ospita."
+              />
+            </Link>
           </Col>
         </Row>
       </div>
       <Newsletter />
-      <Footer
-        siteTitle={data.site.siteMetadata.title}
-        socialLinks={data.site.siteMetadata.social}
-      />
+      <Footer />
     </Layout>
   </div>
 )
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        desc
-        social {
-          facebook
-          twitter
-          github
-        }
-      }
-    }
-  }
-`

@@ -17,6 +17,16 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+    },
+    {
       resolve: "gatsby-plugin-antd",
       options: {
         style: true,

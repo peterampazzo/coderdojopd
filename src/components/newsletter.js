@@ -1,8 +1,9 @@
 import React from "react"
 import { Form, Icon, Input, Button, Typography, Col, Row } from "antd"
 
-export default props => (
+export default () => (
   <div
+    id="newsletter"
     style={{
       backgroundColor: "#ED684A",
       padding: "20px",

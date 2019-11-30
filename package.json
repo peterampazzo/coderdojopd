@@ -17,6 +17,8 @@
     "gatsby": "^2.17.11",
     "gatsby-plugin-antd": "^2.1.0",
     "gatsby-plugin-less": "^3.0.15",
+    "gatsby-source-filesystem": "^2.1.39",
+    "gatsby-transformer-remark": "^2.6.38",
     "less": "^3.10.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"

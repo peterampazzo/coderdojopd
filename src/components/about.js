@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { Col, Row, Typography, Button } from "antd"
 
 export default () => (
@@ -52,7 +53,9 @@ export default () => (
             sii in gamba!” (“Above All: Be Cool”), il bullismo, mentire, far
             perdere tempo e cose così, non è da persone in gamba.
           </Typography.Paragraph>
-          <Button type="primary">Prossimi Incontri</Button>
+          <Link to="/calendario/">
+            <Button type="primary">Prossimi Incontri</Button>
+          </Link>
         </div>
       </Col>
     </Row>
