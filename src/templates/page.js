@@ -1,39 +1,32 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Layout, Typography, Col, Row } from "antd"
+import { Typography, Col, Row } from "antd"
 
-import Header from "../components/header"
-import Footer from "../components/footer"
-import Newsletter from "../components/newsletter"
+import Layout from "../components/layout"
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
-    <div>
-      <Layout>
-        <Header />
-        <div
-          style={{
-            backgroundColor: "#41BAC1",
-            paddingTop: "20px",
-            paddingBottom: "20px",
-            color: "#fff",
-          }}
-        >
-          <Row>
-            <Col span={16} offset={4}>
-              <Typography.Title>{post.frontmatter.title}</Typography.Title>
-              <div
-                dangerouslySetInnerHTML={{ __html: post.html }}
-                style={{ fontSize: "110%", textAlign: "justify" }}
-              />
-            </Col>
-          </Row>
-        </div>
-        <Newsletter />
-        <Footer />
-      </Layout>
-    </div>
+    <Layout>
+      <div
+        style={{
+          backgroundColor: "#41BAC1",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          color: "#fff",
+        }}
+      >
+        <Row>
+          <Col xs={20} sm={20} md={16} lg={16} xl={14} offset={2}>
+            <Typography.Title>{post.frontmatter.title}</Typography.Title>
+            <div
+              dangerouslySetInnerHTML={{ __html: post.html }}
+              style={{ fontSize: "110%", textAlign: "justify" }}
+            />
+          </Col>
+        </Row>
+      </div>
+    </Layout>
   )
 }
 
