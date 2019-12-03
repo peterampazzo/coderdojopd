@@ -26,7 +26,7 @@ export default () => (
             }}
           >
             Hai qualche domanda? Puoi contattarci tramite{" "}
-            <Link to="#" style={linkStyle}>
+            <Link to="/contatti/" style={linkStyle}>
               questo form
             </Link>
             . Tutti i dettagli sugli incontri vengono inviati qualche settimana
@@ -45,11 +45,11 @@ export default () => (
           >
             CoderDojo Padova è un club gratuito e gestito da volontati. Se vuoi
             contribuire al nostro club puoi{" "}
-            <Link to="#" style={linkStyle}>
+            <Link to="/diventa-mentor-di-coderdojo-padova/" style={linkStyle}>
               diventare un nuovo mentor
             </Link>{" "}
             oppure siamo sempre alla ricerca di{" "}
-            <Link to="#" style={linkStyle}>
+            <Link to="/call-4-locations/" style={linkStyle}>
               nuovi spazi
             </Link>{" "}
             dove svolgere la nostre attività.
