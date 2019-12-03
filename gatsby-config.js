@@ -48,6 +48,7 @@ module.exports = {
           // default colors
           "primary-color": "#41BAC1",
           "link-color": "#fff",
+          "link-decoration": "underline",
           "warning-color": "#642580",
           "heading-color": "#003459",
 
