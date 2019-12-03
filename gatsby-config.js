@@ -7,8 +7,12 @@
 module.exports = {
   siteMetadata: {
     title: "CoderDojo Padova",
-    desc:
-      "Laboratorio di programmazione gratuito per bambini e ragazzi dai 5 anni a Padova",
+    titleTemplate: "%s | CoderDojo Padova",
+    image: "/img/Femo_166.jpg",
+    twitterUsername: "@coderdojopd",
+    url: "https://www.coderdojopadova.it",
+    description:
+      "Laboratorio di programmazione gratuito per bambini e ragazzi dai 5 anni in su a Padova",
     social: {
       facebook: "https://www.facebook.com/CoderdojoPadova/",
       twitter: "https://twitter.com/coderdojopd",
@@ -26,6 +30,9 @@ module.exports = {
     },
     {
       resolve: "gatsby-transformer-remark",
+    },
+    {
+      resolve: "gatsby-plugin-react-helmet",
     },
     {
       resolve: "gatsby-plugin-antd",
@@ -87,7 +94,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "coderdojopd.netlify.com",
+        cookieDomain: "https://www.coderdojopadova.it",
       },
     },
   ],

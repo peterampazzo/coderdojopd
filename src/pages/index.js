@@ -7,7 +7,7 @@ import About from "../components/about"
 import Card from "../components/card"
 
 export default () => (
-  <Layout>
+  <Layout pageTitle="Home Page">
     <About />
     <div style={{ backgroundColor: "#F2F2F2", padding: "30px" }}>
       <Row gutter={20}>

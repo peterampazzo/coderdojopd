@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
-    <Layout>
+    <Layout pageTitle={post.frontmatter.title} pageDesc={post.excerpt}>
       <div
         style={{
           backgroundColor: "#41BAC1",
@@ -37,6 +37,7 @@ export const query = graphql`
       frontmatter {
         title
       }
+      excerpt
     }
   }
 `
