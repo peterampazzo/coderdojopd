@@ -10,10 +10,10 @@ export default ({ data }) => {
     <Layout pageTitle={post.frontmatter.title} pageDesc={post.excerpt}>
       <div
         style={{
-          backgroundColor: "#41BAC1",
+          backgroundColor: "#F2F2F2",
           paddingTop: "20px",
           paddingBottom: "20px",
-          color: "#fff",
+          //color: "#fff",
         }}
       >
         <Row>

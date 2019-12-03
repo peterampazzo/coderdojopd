@@ -27,7 +27,7 @@ export default () => {
         }}
       >
         <Col span={24} align="middle">
-          <Link to="/">
+          <Link to="/" style={{ textDecoration: "none" }}>
             <img
               src={"/img/logo.png"}
               alt={data.site.siteMetadata.title}

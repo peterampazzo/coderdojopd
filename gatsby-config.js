@@ -47,7 +47,7 @@ module.exports = {
         modifyVars: {
           // default colors
           "primary-color": "#41BAC1",
-          "link-color": "#fff",
+          //"link-color": "#000",
           "link-decoration": "underline",
           "warning-color": "#642580",
           "heading-color": "#003459",

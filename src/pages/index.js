@@ -6,6 +6,10 @@ import Layout from "../components/layout"
 import About from "../components/about"
 import Card from "../components/card"
 
+const linkStyle = {
+  textDecoration: "none",
+}
+
 export default () => (
   <Layout pageTitle="Home Page">
     <About />
@@ -20,7 +24,7 @@ export default () => (
           align="middle"
           style={{ paddingTop: "15px" }}
         >
-          <Link to="/che-cose/">
+          <Link to="/che-cose/" style={linkStyle}>
             <Card
               imgAlt=""
               imgSrc="/img/Femo_166.jpg"
@@ -38,7 +42,7 @@ export default () => (
           align="middle"
           style={{ paddingTop: "15px" }}
         >
-          <Link to="/stile/">
+          <Link to="/stile/" style={linkStyle}>
             <Card
               imgAlt=""
               imgSrc="/img/DSCF4762.jpg"
@@ -56,7 +60,7 @@ export default () => (
           align="middle"
           style={{ paddingTop: "15px" }}
         >
-          <Link to="/partecipa/">
+          <Link to="/partecipa/" style={linkStyle}>
             <Card
               imgAlt=""
               imgSrc="/img/Femo_172.jpg"
