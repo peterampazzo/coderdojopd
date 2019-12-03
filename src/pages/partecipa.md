@@ -2,7 +2,7 @@
 title: "Partecipa"
 ---
 
-Il nostro dojo riesce ad accogliere circa <b>30 bambini</b> ad ogni appuntamento, il numero dipende dalla quantità di volontari e dalla capacità del luogo che ci ospita. Per questo motivo il <b>numero di posti è limitato</b> e viene assegnato in base all’ordine di registrazione al form online che trasmettiamo circa una settimana prima <a href="https://www.coderdojopadova.it/calendario/">dell’evento</a> alla <a href="http://eepurl.com/QaW9P">nostra newsletter</a>. Solitamente usiamo <a href="http://www.eventbrite.it/o/coderdojo-padova-6011192849">Eventbrite</a>, ma stiamo provando anche sistemi alternativi per le registrazioni.
+Il nostro dojo riesce ad accogliere circa <b>30 bambini</b> ad ogni appuntamento, il numero dipende dalla quantità di volontari e dalla capacità del luogo che ci ospita. Per questo motivo il <b>numero di posti è limitato</b> e viene assegnato in base all’ordine di registrazione al form online che trasmettiamo circa una settimana prima <a href="/calendario/">dell’evento</a> alla <a href="http://eepurl.com/QaW9P">nostra newsletter</a>. Solitamente usiamo <a href="http://www.eventbrite.it/o/coderdojo-padova-6011192849">Eventbrite</a>, ma stiamo provando anche sistemi alternativi per le registrazioni.
 
 # Newsletter ed iscrizioni
 
@@ -35,4 +35,4 @@ Per realizzare la <b>merenda comune</b> chiediamo, a chi lo desidera, di portare
 - Popcorn o patatine
 - Torte o pizzette
 
-Per qualsiasi dubbio potete contattarci via twitter <a href="https://twitter.com/coderdojopd">@coderdojopd</a>, email <a href="mailto:coderdojopd@gmail.com">coderdojopd@gmail.com</a> o dalla pagina <a href="https://www.coderdojopadova.it/contatti/">contatti</a>.
+Per qualsiasi dubbio potete contattarci via twitter <a href="https://twitter.com/coderdojopd">@coderdojopd</a>, email <a href="mailto:coderdojopd@gmail.com">coderdojopd@gmail.com</a> o dalla pagina <a href="/contatti/">contatti</a>.
