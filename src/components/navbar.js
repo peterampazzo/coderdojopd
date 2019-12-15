@@ -38,25 +38,57 @@ class Navbar extends React.Component {
             closable={false}
             onClose={this.onClose}
             visible={this.state.visible}
+            width="80%"
           >
             <Menu
               mode="inline"
               // defaultSelectedKeys={["2"]}
-              style={{ lineHeight: "63px" }}
+              style={{ lineHeight: "63px", borderWidth: "0px" }}
             >
               <Menu.Item key="1">
-                <Link to="/partecipa/" style={linkStyle}>
-                  Partecipa
+                <Link to="/" style={linkStyle}>
+                  <Icon type="global" />
+                  <span>Home</span>
                 </Link>
               </Menu.Item>
               <Menu.Item key="2">
-                <Link to="/calendario/" style={linkStyle}>
-                  Incontri
+                <Link to="/partecipa/" style={linkStyle}>
+                  <Icon type="star" />
+                  <span>Partecipa</span>
                 </Link>
               </Menu.Item>
               <Menu.Item key="3">
+                <Link to="/calendario/" style={linkStyle}>
+                  <Icon type="calendar" />
+                  <span>Incontri</span>
+                </Link>
+              </Menu.Item>
+              <Menu.SubMenu
+                key="sub1"
+                title={
+                  <span>
+                    <Icon type="bulb" />
+                    <span>Vuoi contribuire?</span>
+                  </span>
+                }
+              >
+                <Menu.Item key="5">
+                  <Link to="/calendario/" style={linkStyle}>
+                    <Icon type="smile" />
+                    <span>Diventa un mentor</span>
+                  </Link>
+                </Menu.Item>
+                <Menu.Item key="6">
+                  <Link to="/calendario/" style={linkStyle}>
+                    <Icon type="home" />
+                    <span>Proponi una location</span>
+                  </Link>
+                </Menu.Item>
+              </Menu.SubMenu>
+              <Menu.Item key="4">
                 <Link to="/contatti/" style={linkStyle}>
-                  Contatti
+                  <Icon type="mail" />
+                  <span>Contatti</span>
                 </Link>
               </Menu.Item>
             </Menu>
