@@ -72,20 +72,23 @@ class Navbar extends React.Component {
                   </span>
                 }
               >
-                <Menu.Item key="5">
-                  <Link to="/calendario/" style={linkStyle}>
+                <Menu.Item key="4">
+                  <Link
+                    to="/diventa-mentor-di-coderdojo-padova/"
+                    style={linkStyle}
+                  >
                     <Icon type="smile" />
                     <span>Diventa un mentor</span>
                   </Link>
                 </Menu.Item>
-                <Menu.Item key="6">
-                  <Link to="/calendario/" style={linkStyle}>
+                <Menu.Item key="5">
+                  <Link to="/call-4-locations/" style={linkStyle}>
                     <Icon type="home" />
                     <span>Proponi una location</span>
                   </Link>
                 </Menu.Item>
               </Menu.SubMenu>
-              <Menu.Item key="4">
+              <Menu.Item key="6">
                 <Link to="/contatti/" style={linkStyle}>
                   <Icon type="mail" />
                   <span>Contatti</span>
