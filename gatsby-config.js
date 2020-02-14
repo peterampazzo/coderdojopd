@@ -60,11 +60,11 @@ module.exports = {
           "layout-body-background": "#fff",
 
           // header menu
-          "menu-item-color": "#fff",
+          // "menu-item-color": "#fff",
           "layout-header-background": "#642580",
-          "menu-bg": "#642580",
-          "menu-highlight-color": "#fff",
-          "menu-item-active-bg": "#fff",
+          // "menu-bg": "#642580",
+          // "menu-highlight-color": "#fff",
+          // "menu-item-active-bg": "#fff",
 
           // footer
           "layout-footer-background": "#00171F",
