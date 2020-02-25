@@ -806,7 +806,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.8.3"
     "@babel/plugin-transform-react-jsx-source" "^7.8.3"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.7.6":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6":
   version "7.8.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.4.tgz#d79f5a2040f7caa24d53e563aad49cbc05581308"
   integrity sha512-neAp3zt80trRVBI1x0azq6c57aNBqYZH8KhMm3TaB7wEI5Q4A2SHfBHE8w9gOhI/lrqxtEbXZgQIrHP+wvSGwQ==
@@ -1445,10 +1445,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
-antd@^3.25.0, antd@^3.26.9:
-  version "3.26.9"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-3.26.9.tgz#233c9d090c44146997984966d3b3657c9426bac1"
-  integrity sha512-youf+hBJHB4nuhV7yEbm2VQSMtX9RxrNQvjlc+iIPj4FeJsuTQXIfSSAc5GhwDeVAI4+nuapCv7XLFIQ+f2ZFg==
+antd@^3.25.0, antd@^3.26.12:
+  version "3.26.12"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-3.26.12.tgz#2f075670780ac0490b2945d8bca883edcd93158c"
+  integrity sha512-aXiRDDpDx1jH/gKJDE2dgZPT1C7qurOZ1OSt9RklQT2K6CFlveF8HJY7Jz1/xHikXA+kmy6kr/OACJiaxBFRkA==
   dependencies:
     "@ant-design/create-react-context" "^0.2.4"
     "@ant-design/icons" "~2.1.1"
