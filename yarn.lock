@@ -806,7 +806,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.8.3"
     "@babel/plugin-transform-react-jsx-source" "^7.8.3"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.7.6":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6":
   version "7.8.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.4.tgz#d79f5a2040f7caa24d53e563aad49cbc05581308"
   integrity sha512-neAp3zt80trRVBI1x0azq6c57aNBqYZH8KhMm3TaB7wEI5Q4A2SHfBHE8w9gOhI/lrqxtEbXZgQIrHP+wvSGwQ==
@@ -4809,10 +4809,10 @@ gatsby-plugin-google-analytics@^2.1.35:
   dependencies:
     "@babel/runtime" "^7.7.6"
 
-gatsby-plugin-less@^3.0.19:
-  version "3.0.19"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-less/-/gatsby-plugin-less-3.0.19.tgz#af232da628706ac8f4f3fb410d5c9154c190b9a4"
-  integrity sha512-eFylv8g4qcymrtLjN0ctHkpA9fywYmz0x1DrjwS+OBCft4fSkhAQk8Exx6HmGkeolog/RtdDEI4XRRh6T6dAVA==
+gatsby-plugin-less@^3.0.20:
+  version "3.0.20"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-less/-/gatsby-plugin-less-3.0.20.tgz#b1719c12ecb65de8e20b2805c51e304621c8382b"
+  integrity sha512-jVPuTZdMB/GQteB9wUJgD0BQqDcBpP6fxRwxzGAoj5tj9Nvt+TuzXOwBIybxg0cvVOTGE3upsk2vtgKoxy8EoQ==
   dependencies:
     "@babel/runtime" "^7.7.6"
     less-loader "^5.0.0"
