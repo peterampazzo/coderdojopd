@@ -1,21 +1,51 @@
+/**
+ * Layout component that queries for data
+ * with Gatsby's useStaticQuery component
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
+
 import React from "react"
-import { Layout } from "antd"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 
-import SEO from "../components/SEO"
-import Header from "../components/header"
-import NavBar from "../components/navbar"
-import Footer from "../components/footer"
-import Banner from "./banner"
+import Header from "./header"
+import "./layout.css"
 
-export default props => (
-  <div>
-    <Layout>
-      <SEO title={props.pageTitle} description={props.pageDesc} />
-      <NavBar />
-      <Header />
-      {props.children}
-      <Banner />
-      <Footer />
-    </Layout>
-  </div>
-)
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
+  return (
+    <>
+      <Header siteTitle={data.site.siteMetadata.title} />
+      <div
+        style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `0 1.0875rem 1.45rem`,
+        }}
+      >
+        <main>{children}</main>
+        <footer>
+          © {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </footer>
+      </div>
+    </>
+  )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+}
+
+export default Layout
