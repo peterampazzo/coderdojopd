@@ -4923,12 +4923,12 @@ gatsby-plugin-google-analytics@^2.1.38:
   dependencies:
     "@babel/runtime" "^7.8.7"
 
-gatsby-plugin-less@^3.0.19:
-  version "3.0.19"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-less/-/gatsby-plugin-less-3.0.19.tgz#af232da628706ac8f4f3fb410d5c9154c190b9a4"
-  integrity sha512-eFylv8g4qcymrtLjN0ctHkpA9fywYmz0x1DrjwS+OBCft4fSkhAQk8Exx6HmGkeolog/RtdDEI4XRRh6T6dAVA==
+gatsby-plugin-less@^3.0.21:
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-less/-/gatsby-plugin-less-3.0.21.tgz#a717d59708f1c24d7efbfff25828521b643f01e2"
+  integrity sha512-58a5MUSYnPDgy/udBElrtoYeue9ucI/hGglM/QhCNMZtH8XZXW8R2Q8ImKHsNlHtYiqA86auoHM/WOmkWlLkYQ==
   dependencies:
-    "@babel/runtime" "^7.7.6"
+    "@babel/runtime" "^7.8.7"
     less-loader "^5.0.0"
 
 gatsby-plugin-page-creator@^2.1.40:
